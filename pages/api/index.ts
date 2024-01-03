@@ -6,11 +6,11 @@ import { generateSvg } from '../../utils/SvgUtil';
 
 const defaultCount = 5;
 const minCount = 1;
-const maxCount = 10;
+const maxCount = 10000000;
 
 const defaultWidth = 400;
 const minWidth = 300;
-const maxWidth = 1000;
+const maxWidth = 4096;
 
 const BaseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000';
 
